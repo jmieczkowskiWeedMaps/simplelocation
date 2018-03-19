@@ -20,7 +20,7 @@ import io.reactivex.subjects.PublishSubject
 /**
  * Created by Josh Mieczkowski on 3/17/2018.
  */
-
+//tresadgt
 class LocationService {
 
     companion object {
@@ -33,7 +33,7 @@ class LocationService {
     }
 
     private var obsCount = 0
-    private var locationSubject: PublishSubject<Location> = PublishSubject.create()
+    private var locationSubject: PublishSubject<Location> = PublishSubject.create()dfdfs
     private var locationRequest = LocationRequest().apply {
         interval = 10000
         fastestInterval = 5000
